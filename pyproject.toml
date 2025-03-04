@@ -6,8 +6,13 @@ authors = ["Derek <derekzongnanchen@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.8"
+python = ">=3.10,<4.0"
 sgp4 = "^2.24"
+numpy = "^2.2.3"
+scipy = "^1.15.2"
+matplotlib = "^3.10.1"
+juliandate = "^1.0.5"
+pandas = "^2.2.3"
 
 
 [build-system]
